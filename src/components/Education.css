@@ -1,0 +1,61 @@
+
+.Nav-o {
+    /* text-align: center; Center the navigation bar */
+    /* margin-top: 2rem;  */
+    /* background-color: rgb(11, 76, 76); */
+    background-color: #09203a;
+    
+}
+.h1{
+    font-size: 25px;
+}
+.education-container {
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.Section {
+    background-color: #21283b;
+    color: white;
+    width: 50rem;
+    margin: 15px;
+    border-radius: 10px;
+    display: flex;
+    border: 2px solid rgb(56, 58, 78);
+    box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.05),
+    inset 0 -15px 15px rgba(255, 255, 255, 0.05), 0 15px 15px rgba(0, 0, 0, 0.3),
+    inset 0 15px 15px rgba(0, 0, 0, 0.3);
+}
+
+.image-container {
+    margin: 20px;
+    border-bottom: 2px solid black;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 20rem;
+}
+
+.image-container img {
+    height: 150px;
+}
+
+.details {
+    padding: 30px;
+}
+
+.certifications {
+    margin: 20px 15rem;
+}
+
+.certifications ul {
+    padding-left: 20px;
+}
+/* #h22{
+
+} */

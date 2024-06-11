@@ -1,0 +1,45 @@
+#sec1{
+    color: greenyellow;
+}
+.sec1,.sec2,.sec3,.sec5{
+
+    margin-right: 16rem;
+    margin-left: 15rem;
+    height: 250px;
+    font-size: 19px;
+    padding: 20px;
+    background-color: #09203a;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin-bottom: 19px;
+}
+.sec4{
+    margin-right: 16rem;
+    margin-left: 15rem;
+    height: 350px;
+    font-size: 17px;
+    padding: 20px;
+    background-color: #09203a;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.sec1:hover {
+    background-color: #1e2b40;
+}
+.sec2:hover {
+    background-color: #1e2b40;
+}
+.sec3:hover {
+    background-color: #1e2b40;
+}
+.sec4:hover {
+    background-color: #1e2b40;
+}
+.sec5:hover {
+    background-color: #1e2b40;
+}

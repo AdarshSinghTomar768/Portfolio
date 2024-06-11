@@ -1,0 +1,82 @@
+body {
+    background: radial-gradient(circle, #0d4963, #030f14);
+    color: white; /* Ensure all text defaults to white */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+}
+
+body > div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+body > div > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#NList {
+    width: 100%;
+    margin-left: -2rem;
+}
+#name {
+    width: 100%;
+    color: white;
+    margin-top: 15rem;
+    font-size: 50px;/* Add some space between the h1 and the Typing component */
+    text-align: center;
+}
+
+.header {
+    color: greenyellow;
+    /* text-align: center; Center the Typing component */
+    margin-top: 2rem; /* Adjust as needed */
+
+}
+
+.typing-effect {
+    font-size: 35px; /* Adjust size as needed */
+    font-weight: bold;
+}
+
+.caret {
+    display: inline-block;
+    width: 10px;
+    background-color: white;
+    margin-left: 5px;
+    animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+    from, to {
+        background-color: transparent;
+    }
+    50% {
+        background-color: black;
+    }
+}
+
+.Image {
+    margin-top: 2rem; /* Add space between the Nav bar and the images */
+}
+
+.Image a { 
+    margin: 0px 20px;
+}
+
+.Image a img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px; /* Adjust spacing as needed */
+    /* filter: brightness(20) saturate(0); */
+    background-color: black;
+    padding: 0.5rem;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
